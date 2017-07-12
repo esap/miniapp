@@ -6,9 +6,9 @@
 
 <hr />
 
-<img src="./snap/demo1.png" width="320">
-<img src="./snap/demo2.png" width="320">
-<img src="./snap/demo3.png" width="320">
+![](/snap/demo1.png)
+![](/snap/demo2.png)
+![](/snap/demo3.png)
 
 ## 许可
 MIT
