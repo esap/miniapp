@@ -1,0 +1,27 @@
+<view class="container">
+
+  <view class="page-body">
+    <form catchsubmit="formSubmit">
+
+    <view class="page-section">
+      <view class="weui-cells__title">lvl</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input name="lvl" class="weui-input"  type="number" />
+        </view>
+      </view>
+    </view>
+
+    <view class="page-section">
+      <view class="weui-cells__title">日志</view>
+      <view class="textarea-wrp">
+        <textarea name="rem" bindblur="bindTextAreaBlur" auto-height />
+      </view>
+    </view>   
+
+      <view class="btn-area">
+        <button type="primary" formType="submit">提交</button>
+      </view>
+    </form>
+  </view>
+</view>

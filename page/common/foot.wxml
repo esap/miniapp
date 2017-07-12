@@ -1,0 +1,5 @@
+<template name="foot">
+  <navigator class="page-foot" openType="switchTab" url="/page/component/index" hover-class="none">
+     <text>powered by @一零工作室</text>
+  </navigator>
+</template>

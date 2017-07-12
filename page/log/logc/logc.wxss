@@ -1,0 +1,26 @@
+@import "../../common/lib/weui.wxss";
+@import "../../common/index.wxss";
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+label {
+  display: inline-block;
+  min-width: 270rpx;
+  margin-right: 20rpx;
+}
+form{
+  width: 100%;
+}
+.picker-text {
+  margin-left: 20rpx;
+  position: relative;
+}
+textarea {
+    width: 700rpx;
+    padding: 25rpx 0;
+}
+.textarea-wrp {
+    padding: 0 25rpx;
+    background-color: #fff;
+}

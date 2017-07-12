@@ -1,0 +1,30 @@
+<view class="container">
+
+  <view class="page-section">
+    <view class="weui-cells__title">搜索</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" bindinput="bindKeyInput" auto-focus placeholder="输入关键字"/>
+      </view>
+    </view>
+  </view>
+
+    <view class="page-section">
+      <view class="page-section-title" bindtap="logc" >列表{{items.length}}项
+        <view class="right"><icon type="success" size="20"/>新建</view>
+      </view>
+      <view class="weui-cells weui-cells_after-title">
+        <label class="weui-cell weui-check__label" data-ds="{{item.id}}" wx:for="{{items}}" wx:key="{{item.id}}">
+            <view class="weui-cell__hd">
+              <view class="type-pink">{{item.id}}</view>
+            </view>
+            <view class="weui-cell__bd">{{item.log}}</view>
+            <view class="weui-cell__ft p7">
+              <view>{{item.usr}}</view>
+              <view>({{item.model}})</view>
+            </view>
+        </label>
+      </view>
+    </view>
+
+</view>

@@ -1,0 +1,21 @@
+@import "../common/lib/weui.wxss";
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+.container{
+  min-height: 0
+}
+.type-pink {
+	color: #fff;
+	padding: 2px;
+	border-radius: 10%;	
+	font-size: 10px;
+	background-color: #669
+}
+.p7{
+  font-size: 24rpx;
+}
+.right {
+  float:right;
+}
